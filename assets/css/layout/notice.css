@@ -1,0 +1,53 @@
+.notice__wrap {}
+.notice__inner {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.notice__inner > div {
+    width: 47%;
+}
+.noticeTable {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px #d9d9d9;
+}
+.noticeTable .titleWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.noticeTable .titleWrap h2 {
+    font-size: 25px;
+}
+.noticeTable .table a {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    transition: all 0.3s;
+}
+.noticeTable .table a:hover {
+    color: #FABA03;
+    transition: all 0.3s;
+}
+.noticeTable .table a h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+}
+.noticeTable .table a span {
+    color: #ccc;
+    font-weight: 300;
+}
+.textButton {
+    display: flex;
+}
+.textButton .icon {
+    margin-left: 10px;
+}
+.textButton .icon img {
+    width: 25px;
+}

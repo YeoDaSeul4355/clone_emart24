@@ -1,0 +1,58 @@
+.buisness__wrap {}
+
+.buisness__wrap .buisness__inner {
+  padding: 0 50px;
+}
+
+.buisness__wrap .buisness__inner .titleWrap h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.buisness__wrap .buisness__inner .titleWrap p {
+  margin-bottom: 30px;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li {
+  width: 32%;
+  padding: 30px 0;
+  background-color: #fece6a;
+  border-radius: 30px;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .description {
+  padding: 0 30px;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .description .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .description .title h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .description .title .iconWrap img {
+  width: 40px;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .icon3dWrap {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buisness__wrap .buisness__inner .contentWrap ul li .icon3dWrap .icon img {
+  width: 300px;
+}

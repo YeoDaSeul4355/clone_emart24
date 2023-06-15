@@ -1,0 +1,64 @@
+.appService__wrap .appService__inner {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appService__wrap .appService__inner .appServicePreview .mockUp img {
+  width: 500px;
+}
+
+.appService__wrap .appService__inner .description {
+  padding: 130px;
+  text-align: center;
+}
+
+.appService__wrap .appService__inner .description .titleWrap .textTitle h2 {
+  font-size: 20px;
+  color: #FABA03;
+}
+
+.appService__wrap .appService__inner .description .titleWrap .textTitle .sectionName {
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.appService__wrap .appService__inner .description .titleWrap .textButton {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appService__wrap .appService__inner .description .titleWrap .textButton .icon a img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .button {
+  margin-top: 80px;
+  display: inline-block;
+  background-color: #FABA03;
+  border-radius: 15px;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .button a {
+  padding: 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .button a .icon {
+  display: inline-block;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .button a .icon img {
+  width: 20px;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .more {
+  margin-top: 20px;
+}

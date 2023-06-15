@@ -1,0 +1,112 @@
+#silder {
+
+    height: 420px;
+    overflow: hidden;
+}
+
+#silder .sliderWrap {
+    display: flex;
+    width: 400%;
+    height: 420px;
+}
+
+.slider img {
+    position: relative;
+    width: 1280px;
+    height: 420px;
+    border-radius: 0 0 50px 50px;
+}
+
+
+/* controller */
+.mainBannerControler {
+    z-index: 9999;
+    width: 414px;
+    height: 72px;
+    position: relative;
+    top: -36px;
+    left: 20%;
+    display: flex;
+    border: 1px solid #ebebeb;
+    align-items: center;
+    padding: 0px 32px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.mainBannerControler .controller {
+    flex: 1;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.mainBannerControler .controller .buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.mainBannerControler .controller .buttons .button {
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.mainBannerControler .controller .buttons .button img {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    overflow: hidden;
+    font-size: 1px;
+}
+
+.mainBannerControler .controller .buttons .button img img {
+    width: 100%;
+}
+
+.mainBannerControler .controller .buttons .button:active {
+    transform: scale(90%);
+    opacity: 0.3;
+}
+
+.mainBannerControler .controller .indexPointer {
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 30px;
+    letter-spacing: -0.025rem;
+}
+
+.mainBannerControler .controller .indexPointer .curNum {
+    color: #f9bb00;
+}
+
+.mainBannerControler .controller .indexPointer .pointerBar {
+    flex: 1;
+    position: relative;
+    height: 2px;
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+.mainBannerControler .controller .indexPointer .pointerBar .swiper-pagination-progressbar-fill {
+    background-color: #f9bb00 !important;
+}
+
+.mainBannerControler .controller .indexPointer .pointerBar .cur {
+    width: 1px;
+    transition: 0.7s;
+    height: 100%;
+    background-color: #f9bb00;
+}
+
+.mainBannerControler .controller .indexPointer .totalNum {
+    color: #999999;
+}

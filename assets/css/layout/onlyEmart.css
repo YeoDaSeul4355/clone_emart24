@@ -1,0 +1,64 @@
+.onlyEmart__wrap .onlyEmart__inner {
+  padding: 0 50px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .titleWrap .title h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .titleWrap .title p {
+  color: #FABA03;
+  margin-bottom: 70px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul {
+  display: flex;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li {
+  margin-left: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  text-align: center;
+  height: 430px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li a .imgWrap img {
+  width: 250px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li a .desc .pbLogo {
+  height: 70px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li a .desc .pbLogo img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li a .desc p {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 10px;
+}
+
+.onlyEmart__wrap .onlyEmart__inner .contentWrap ul li:hover {
+  border: 1px solid #FABA03;
+}
+.onlyEmart__inner > div {
+  opacity: 0;
+  transform: translateY(200px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.onlyEmart__inner > div.show {
+  opacity: 1;
+  transform: translateY(0);
+}

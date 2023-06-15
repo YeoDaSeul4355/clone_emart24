@@ -1,0 +1,48 @@
+.magazin__wrap {}
+.magazin__inner {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.magazin__inner .titleWrap {
+    width: 40%;
+}
+.magazin__inner .titleWrap .textTitle h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.magazin__inner .titleWrap .textTitle h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.magazin__inner .titleWrap .textTitle h3 {
+    color: #ffc445;
+    margin-bottom: 10px;
+}
+.magazin__inner .titleWrap .snsLink .snsIcons{
+    
+    display: flex;
+}
+.snsLink .snsIcons li {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.snsLink .snsIcons li img {
+    width: 100%;
+}
+.magazin__inner .snsItemSliderWrap {
+    padding: 20px;
+}
+.magazin__inner .snsItemSliderWrap ul {
+    display: flex;
+    justify-content: space-between;
+}
+.magazin__inner .snsItemSliderWrap ul > li {
+    width: 33.3333%;
+}
+.magazin__inner .snsItemSliderWrap ul li > a > img {
+    width: 300px;
+    height: 350px;
+}
