@@ -1,11 +1,12 @@
 .mapService__wrap .mapService__inner {
-  padding: 0 50px;
+  padding: 80px 0px 80px;
   display: flex;
   justify-content: space-between;
 }
 
 .mapService__wrap .mapService__inner .titleWrap {
   width: 60%;
+  padding: 0 100px;
 }
 
 .mapService__wrap .mapService__inner .titleWrap h2 {
@@ -27,6 +28,8 @@
   width: 60px;
   height: 60px;
   left: 600px;
+  top: 170px;
+  cursor: pointer;
 }
 
 .mapService__wrap .mapService__inner .titleWrap .tagWrap ul {
@@ -53,7 +56,10 @@
   border-radius: 16px 0px 16px 16px;
   background-color: #ebebeb;
 }
-
+.mapService__wrap .mapService__inner .titleWrap .tagWrap ul li:hover {
+  background-color: #fece6a;
+  transition: all 0.3s;
+}
 .mapService__wrap .mapService__inner .titleWrap .tagWrap ul a h3 {
   font-weight: 500;
 }
@@ -70,4 +76,20 @@
   position: absolute;
   left: 0;
   top: -50px;
+}
+.mapService__wrap .mapService__inner .sectionBackground .pin {
+  animation: bounce_frames 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce_frames {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 40px, 0);
+  }
 }

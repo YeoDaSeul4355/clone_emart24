@@ -1,11 +1,15 @@
+.appService__wrap {
+  position: relative;
+}
+
 .appService__wrap .appService__inner {
-  padding: 0 50px;
+  /* padding: 0 10px; */
   display: flex;
   justify-content: space-between;
 }
 
 .appService__wrap .appService__inner .appServicePreview .mockUp img {
-  width: 500px;
+  width: 600px;
 }
 
 .appService__wrap .appService__inner .description {
@@ -19,7 +23,7 @@
 }
 
 .appService__wrap .appService__inner .description .titleWrap .textTitle .sectionName {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 10px;
   font-weight: 700;
 }
@@ -41,6 +45,13 @@
   display: inline-block;
   background-color: #FABA03;
   border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.appService__wrap .appService__inner .description .outLinkWrap .button:hover {
+  transform: scale(0.95);
+  transition: transform 0.3s;
+  background-color: #fab003;
 }
 
 .appService__wrap .appService__inner .description .outLinkWrap .button a {
@@ -53,6 +64,7 @@
 
 .appService__wrap .appService__inner .description .outLinkWrap .button a .icon {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .appService__wrap .appService__inner .description .outLinkWrap .button a .icon img {
@@ -61,4 +73,15 @@
 
 .appService__wrap .appService__inner .description .outLinkWrap .more {
   margin-top: 20px;
+}
+
+.grayBackground {
+  position: absolute;
+  left: 0vw;
+  top: -5vw;
+  width: 90vw;
+  height: 50vw;
+  background-color: #f8f8f8;
+  z-index: -1;
+  border-radius: 0 80px 150px 0;
 }

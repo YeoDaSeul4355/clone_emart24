@@ -1,4 +1,7 @@
-.notice__wrap {}
+.notice__wrap {
+    padding: 100px 0;
+    margin: 100px 0;
+}
 .notice__inner {
     padding: 0 50px;
     display: flex;
