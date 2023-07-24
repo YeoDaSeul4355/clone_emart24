@@ -1,26 +1,29 @@
 .footer__wrap {
     background-color: #F4F4F4;
 }
-.footer__inner {
 
-}
-.footer__inner > ul {
+.footer__inner>ul {
     display: flex;
 }
-.footer__inner > ul > li {
+
+.footer__inner>ul>li {
     padding: 0 10px;
     font-size: 14px;
 }
-.footer__inner > ul > li > a:hover {
+
+.footer__inner>ul>li>a:hover {
     color: #FABA03;
 }
-.footer__inner > ul > li::after {
+
+.footer__inner>ul>li::after {
     content: "|";
     margin-left: 20px;
 }
-.footer__inner > ul > li:last-child::after {
+
+.footer__inner>ul>li:last-child::after {
     content: '';
 }
+
 .footer__inner p {
     padding: 0 10px;
     margin-top: 20px;
@@ -29,6 +32,7 @@
     font-weight: 300;
     margin-bottom: 30px;
 }
+
 .footer__inner address {
     font-size: 13px;
     padding: 10px;

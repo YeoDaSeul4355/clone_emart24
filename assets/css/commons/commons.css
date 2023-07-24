@@ -1,46 +1,48 @@
 /* container */
 .container {
-    position: relative;
-    width: 1440px;
-    margin: 0 auto;
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
 }
 .section {
-    padding: 100px 0;
-
+  padding: 100px 0;
+}
+body {
+  overflow: hidden;
 }
 /* blind */
 .blind {
-    position: absolute;
-    clip: rect(0,0,0,0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
 }
 
 /* ir효과 */
 .ir {
-    display: block;
-    overflow: hidden;
-    font-size: 0;
-    line-height: 0;
-    text-indent: -9999px;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
 }
 
 /* skip */
 #skip {
-    position: relative;
-    z-index: 100000;
+  position: relative;
+  z-index: 100000;
 }
 #skip a {
-    background-color: var(--color_body);
-    color: #fff;
-    position: absolute;
-    padding: 20px 40px;
-    left: -400px;
-    top: 5px;
+  background-color: var(--color_body);
+  color: #fff;
+  position: absolute;
+  padding: 20px 40px;
+  left: -400px;
+  top: 5px;
 }
 #skip a:active,
 #skip a:focus {
-    left: 5px;
+  left: 5px;
 }
